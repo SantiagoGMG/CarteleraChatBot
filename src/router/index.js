@@ -5,7 +5,7 @@ import ContactView from '../views/ContactView.vue'
 import EventDetailView from '../views/EventDetailView.vue'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('#'),
   routes: [
     {
       path: '/',

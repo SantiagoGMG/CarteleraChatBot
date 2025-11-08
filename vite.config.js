@@ -15,5 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
-  base: '/Cartelera/',
+  base:'https://SantiagoGMG.github.io/CarteleraChatBot',
 })
